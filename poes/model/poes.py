@@ -13,6 +13,7 @@ def poes(area, h, poro, swi, boi):
     -------
     poes: Petróleo original en sitio (bbl)
     """
-    poes = (7758 * area * h * poro * (1 - swi)) / boi
+    Poes = (7758 * area * h * poro * (1 - swi)) / boi
 
-    return poes
+    return Poes
+
