@@ -16,4 +16,3 @@ def poes(area, h, poro, swi, boi):
     Poes = (7758 * area * h * poro * (1 - swi)) / boi
 
     return Poes
-
