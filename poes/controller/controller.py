@@ -152,6 +152,6 @@ def main():
     sheet.pictures.add(fig, name="Histogram", update=True, left=sheet.range("J2").left)
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     xw.Book("poes.xlsm").set_mock_caller()
     main()
